@@ -50,8 +50,9 @@ version `1.0.0`.
 
 ## Screenshots
 
-> **截图说明**：新版真实界面截图待补充。仓库暂未附带截图——旧版截图带有旧品牌与
-> 个人任务信息，已在发布前移除；重截后会在 `screenshots.json` 中重新声明。
+![Agent Board with sub-agent cards](screenshot-main.png)
+
+![Agent Board panel with the main-agent card and the paper-cloud artwork](screenshot-sidebar.png)
 
 ## Where it appears
 
@@ -223,6 +224,9 @@ module table.
 | `locale/en.json`, `locale/zh.json` | Plugin Manager display metadata |
 | `fonts/` | Embedded Collapse wordmark and JetBrains Mono web fonts |
 | `icon.svg` | Original artwork |
+| `screenshot-main.png`, `screenshot-sidebar.png` | Marketplace screenshots |
+| `screenshots.json` | dsh-market screenshot manifest |
+| `assets/icon.png` | Marketplace tile icon (512×512 PNG) |
 | `marketplace/dsh-agent-board.yml` | Entry prepared for the awesome-dsh-plugin catalog |
 | `LICENSE` | MIT |
 
