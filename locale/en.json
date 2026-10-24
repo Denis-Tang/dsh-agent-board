@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Agent Board",
+    "description": "Live two-column card board of the current session's main and sub agents, ordered by creation time, with status, plan progress, tokens, cost, and runtime on every card."
+  }
+}

@@ -1,0 +1,6 @@
+url: https://github.com/Denis-Tang/dsh-agent-board
+name: Denis-Tang/dsh-agent-board
+category: ui
+description:
+  en: Live two-column card board of the current session's main and sub agents in the DeepSeek Harness right sidebar — the main agent on top, sub agents by creation time below it, with status, plan progress, tokens, cost, and runtime on every card.
+  zh: 智能体看板——在 DeepSeek Harness 右侧边栏中以双列卡片实时展示当前会话的主/子智能体：主 agent 在最上方，子 agent 按创建时间往下排；每个卡片显示状态、计划进度、Token、费用与运行时间。

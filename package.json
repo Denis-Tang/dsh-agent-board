@@ -1,0 +1,63 @@
+{
+  "name": "dsh-agent-board",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Live two-column card board of the current session's main and sub agents in DeepSeek Harness: the main agent on top, sub agents by creation time below it, with status, plan progress, tokens, cost, and runtime on every card.",
+  "license": "MIT",
+  "author": "Denis-Tang",
+  "homepage": "https://github.com/Denis-Tang/dsh-agent-board#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denis-Tang/dsh-agent-board.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Denis-Tang/dsh-agent-board/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "agent",
+    "subagent",
+    "workflow",
+    "board",
+    "kanban",
+    "visualization"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.1 <0.3.0"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "fonts/*",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar-right",
+        "@deepseek-ai/dsh-client-ui-workspace"
+      ]
+    }
+  }
+}

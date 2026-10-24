@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Agent Board">
+  <defs>
+    <linearGradient id="ab-main-card" x1="19" y1="8" x2="45" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- warm paper board -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#f7f4ec" stroke="#e7dfcf" stroke-width="2"/>
+
+  <!-- main-to-children bus -->
+  <path d="M32 20v6M18 26h28M18 26v6M46 26v6M18 42v4M46 42v4"
+        fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- top main agent card -->
+  <rect x="19" y="8" width="26" height="12" rx="4" fill="url(#ab-main-card)" stroke="#ffffff" stroke-width="2"/>
+  <rect x="24" y="12.7" width="16" height="2.6" rx="1.3" fill="#ffffff" opacity="0.95"/>
+
+  <!-- two columns of delegated agent cards -->
+  <rect x="8" y="32" width="20" height="10" rx="3" fill="#fffdf8" stroke="#2563eb" stroke-width="2"/>
+  <rect x="36" y="32" width="20" height="10" rx="3" fill="#fffdf8" stroke="#14b8a6" stroke-width="2"/>
+  <rect x="8" y="46" width="20" height="10" rx="3" fill="#fffdf8" stroke="#2563eb" stroke-width="2"/>
+  <rect x="36" y="46" width="20" height="10" rx="3" fill="#fffdf8" stroke="#14b8a6" stroke-width="2"/>
+</svg>
